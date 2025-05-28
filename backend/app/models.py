@@ -76,7 +76,7 @@ class FrutaDiablo(Base):
     descripcion = Column(Text)
     apariencia = Column(String(200))
     fecha_descubrimiento = Column(Date)
-    estado = Column(Enum(EstadoFrutaType), nullable=False)
+    estado = Column(Enum(EstadoFrutaType, native_enum=False), nullable=False)
     id_tipo_fruta = Column(Integer, ForeignKey('tipo_fruta.id'), nullable=False)
     id_zoat = Column(Integer, ForeignKey('variacion_zoan.id'))
 
@@ -118,7 +118,7 @@ class Personaje(Base):
     apodo = Column(String(100))
     fecha_nacimiento = Column(Date)
     sexo = Column(Enum(SexoType), nullable=False)
-    estado = Column(Enum(EstadoPersonajeType), nullable=False)
+    estado = Column(Enum(EstadoPersonajeType, native_enum=False), nullable=False)
     id_ocupacion = Column(Integer, ForeignKey('ocupacion.id'), nullable=False)
 
 class UsuarioFruta(Base):
@@ -215,3 +215,22 @@ class HakiUsuarios(Base):
     id_personaje = Column(Integer, ForeignKey('personaje.id'), nullable=False)
     tipo = Column(String, nullable=False)
     nivel = Column(String, nullable=False)
+
+class PersonajeIndexView(Base):
+    __tablename__ = 'vw_personajes_index'
+    __table_args__ = {'info': dict(is_view=True)}
+
+    id = Column(Integer, primary_key=True)
+    nombre = Column(String)
+    apodo = Column(String)
+    estado = Column(Enum(EstadoPersonajeType))
+    ocupacion_nombre = Column(String)
+
+class FrutaDiabloIndexView(Base):
+    __tablename__ = 'vw_frutas_index'
+    __table_args__ = {'info': dict(is_view=True)}
+
+    id = Column(Integer, primary_key=True)
+    nombre = Column(String)
+    estado = Column(Enum(EstadoFrutaType))
+    tipo_fruta_nombre = Column(String)

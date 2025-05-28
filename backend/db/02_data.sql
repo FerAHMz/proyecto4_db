@@ -186,305 +186,305 @@ INSERT INTO ocupacion (nombre, descripcion) VALUES
 
 INSERT INTO fruta_diablo (nombre, descripcion, apariencia, fecha_descubrimiento, estado, id_tipo_fruta, id_zoat) VALUES
 
-('Child no Mi 1', 'Lawyer side relationship rule item son mouth.', 'be', '2007-06-14', 'Disponible', 15, 8),
+('Child no Mi 1', 'Lawyer side relationship rule item son mouth.', 'be', '2007-06-14', 'DISPONIBLE', 15, 8),
 
-('Everyone no Mi 2', 'Probably positive daughter.', 'drug', '1987-07-04', 'Disponible', 13, NULL),
+('Everyone no Mi 2', 'Probably positive daughter.', 'drug', '1987-07-04', 'DISPONIBLE', 13, NULL),
 
-('Those no Mi 3', 'Whether cell throughout have important.', 'they', '1974-02-02', 'Desconocida', 12, NULL),
+('Those no Mi 3', 'Whether cell throughout have important.', 'they', '1974-02-02', 'DESCONOCIDA', 12, NULL),
 
-('Interesting no Mi 4', 'New top stand civil possible buy accept.', 'individual', '1965-06-26', 'Consumida', 17, NULL),
+('Interesting no Mi 4', 'New top stand civil possible buy accept.', 'individual', '1965-06-26', 'CONSUMIDA', 17, NULL),
 
-('Staff no Mi 5', 'Class cold ago program wife son two.', 'impact', '1962-08-18', 'Disponible', 18, NULL),
+('Staff no Mi 5', 'Class cold ago program wife son two.', 'impact', '1962-08-18', 'DISPONIBLE', 18, NULL),
 
-('Price no Mi 6', 'Series appear east peace up research ready.', 'ground', '2017-04-12', 'Disponible', 3, NULL),
+('Price no Mi 6', 'Series appear east peace up research ready.', 'ground', '2017-04-12', 'DISPONIBLE', 3, NULL),
 
-('Rest no Mi 7', 'My wall your I artist big.', 'first', '2004-07-11', 'Desconocida', 15, 5),
+('Rest no Mi 7', 'My wall your I artist big.', 'first', '2004-07-11', 'DESCONOCIDA', 15, 5),
 
-('Entire no Mi 8', 'Suggest training resource short message.', 'minute', '2024-09-12', 'Disponible', 7, NULL),
+('Entire no Mi 8', 'Suggest training resource short message.', 'minute', '2024-09-12', 'DISPONIBLE', 7, NULL),
 
-('Environmental no Mi 9', 'Around one force area.', 'face', '1961-11-12', 'Consumida', 8, NULL),
+('Environmental no Mi 9', 'Around one force area.', 'face', '1961-11-12', 'CONSUMIDA', 8, NULL),
 
-('Serious no Mi 10', 'Site though though.', 'network', '1974-11-09', 'Consumida', 7, NULL),
+('Serious no Mi 10', 'Site though though.', 'network', '1974-11-09', 'CONSUMIDA', 7, NULL),
 
-('Rather no Mi 11', 'Ground lay ready little state budget other.', 'animal', '1998-06-15', 'Disponible', 5, 4),
+('Rather no Mi 11', 'Ground lay ready little state budget other.', 'animal', '1998-06-15', 'DISPONIBLE', 5, 4),
 
-('Share no Mi 12', 'Hundred require peace process.', 'me', '2019-08-01', 'Consumida', 12, NULL),
+('Share no Mi 12', 'Hundred require peace process.', 'me', '2019-08-01', 'CONSUMIDA', 12, NULL),
 
-('American no Mi 13', 'Claim sometimes their another cup eat.', 'between', '1950-09-17', 'Desconocida', 14, NULL),
+('American no Mi 13', 'Claim sometimes their another cup eat.', 'between', '1950-09-17', 'DESCONOCIDA', 14, NULL),
 
-('Challenge no Mi 14', 'Political but at watch I.', 'now', '2003-06-02', 'Disponible', 13, NULL),
+('Challenge no Mi 14', 'Political but at watch I.', 'now', '2003-06-02', 'DISPONIBLE', 13, NULL),
 
-('Matter no Mi 15', 'Gas lawyer create often economy certainly decade.', 'itself', '1955-12-07', 'Consumida', 18, NULL),
+('Matter no Mi 15', 'Gas lawyer create often economy certainly decade.', 'itself', '1955-12-07', 'CONSUMIDA', 18, NULL),
 
-('Wonder no Mi 16', 'Especially writer support success believe direction another west.', 'able', '1982-04-26', 'Consumida', 13, NULL),
+('Wonder no Mi 16', 'Especially writer support success believe direction another west.', 'able', '1982-04-26', 'CONSUMIDA', 13, NULL),
 
-('Style no Mi 17', 'Also ago state family I.', 'ready', '1956-04-13', 'Disponible', 4, NULL),
+('Style no Mi 17', 'Also ago state family I.', 'ready', '1956-04-13', 'DISPONIBLE', 4, NULL),
 
-('Discuss no Mi 18', 'Popular rise age beautiful one.', 'game', '2005-11-13', 'Disponible', 1, NULL),
+('Discuss no Mi 18', 'Popular rise age beautiful one.', 'game', '2005-11-13', 'DISPONIBLE', 1, NULL),
 
-('Along no Mi 19', 'Toward base realize system.', 'throughout', '2020-10-10', 'Desconocida', 13, NULL),
+('Along no Mi 19', 'Toward base realize system.', 'throughout', '2020-10-10', 'DESCONOCIDA', 13, NULL),
 
-('Charge no Mi 20', 'Through about same region.', 'movement', '1999-05-04', 'Disponible', 19, NULL),
+('Charge no Mi 20', 'Through about same region.', 'movement', '1999-05-04', 'DISPONIBLE', 19, NULL),
 
-('Contain no Mi 21', 'Him land defense claim successful near.', 'experience', '1955-05-10', 'Disponible', 7, NULL),
+('Contain no Mi 21', 'Him land defense claim successful near.', 'experience', '1955-05-10', 'DISPONIBLE', 7, NULL),
 
-('Process no Mi 22', 'Plan carry once once book feeling tell.', 'particular', '1975-10-04', 'Disponible', 1, NULL),
+('Process no Mi 22', 'Plan carry once once book feeling tell.', 'particular', '1975-10-04', 'DISPONIBLE', 1, NULL),
 
-('Anyone no Mi 23', 'Sound involve goal whose attorney traditional.', 'keep', '1948-02-12', 'Desconocida', 8, NULL),
+('Anyone no Mi 23', 'Sound involve goal whose attorney traditional.', 'keep', '1948-02-12', 'DESCONOCIDA', 8, NULL),
 
-('Others no Mi 24', 'Lose ready family pull.', 'one', '2022-07-08', 'Consumida', 13, NULL),
+('Others no Mi 24', 'Lose ready family pull.', 'one', '2022-07-08', 'CONSUMIDA', 13, NULL),
 
-('Think no Mi 25', 'Cell serve once color.', 'help', '2022-05-21', 'Disponible', 20, 9),
+('Think no Mi 25', 'Cell serve once color.', 'help', '2022-05-21', 'DISPONIBLE', 20, 9),
 
-('Hundred no Mi 26', 'Position machine follow pull.', 'very', '2009-08-20', 'Disponible', 20, 4),
+('Hundred no Mi 26', 'Position machine follow pull.', 'very', '2009-08-20', 'DISPONIBLE', 20, 4),
 
-('Who no Mi 27', 'Dinner shoulder up director trip.', 'down', '2014-05-06', 'Desconocida', 20, 13),
+('Who no Mi 27', 'Dinner shoulder up director trip.', 'down', '2014-05-06', 'DESCONOCIDA', 20, 13),
 
-('Budget no Mi 28', 'Become light those say glass local manage.', 'weight', '2014-04-19', 'Desconocida', 10, 12),
+('Budget no Mi 28', 'Become light those say glass local manage.', 'weight', '2014-04-19', 'DESCONOCIDA', 10, 12),
 
-('Per no Mi 29', 'Ahead moment white short read.', 'among', '2024-02-09', 'Desconocida', 11, NULL),
+('Per no Mi 29', 'Ahead moment white short read.', 'among', '2024-02-09', 'DESCONOCIDA', 11, NULL),
 
-('Second no Mi 30', 'Leg reason box happen fly.', 'product', '1986-03-26', 'Desconocida', 11, NULL),
+('Second no Mi 30', 'Leg reason box happen fly.', 'product', '1986-03-26', 'DESCONOCIDA', 11, NULL),
 
-('Body no Mi 31', 'Figure term join per for.', 'close', '1992-02-11', 'Desconocida', 12, NULL),
+('Body no Mi 31', 'Figure term join per for.', 'close', '1992-02-11', 'DESCONOCIDA', 12, NULL),
 
-('Picture no Mi 32', 'Check court interest because page fire check book.', 'word', '1947-07-26', 'Consumida', 13, NULL),
+('Picture no Mi 32', 'Check court interest because page fire check book.', 'word', '1947-07-26', 'CONSUMIDA', 13, NULL),
 
-('Democratic no Mi 33', 'Class sea such among my window account.', 'modern', '1953-08-30', 'Disponible', 4, NULL),
+('Democratic no Mi 33', 'Class sea such among my window account.', 'modern', '1953-08-30', 'DISPONIBLE', 4, NULL),
 
-('Large no Mi 34', 'Choice job day effect well hundred.', 'where', '1998-09-26', 'Consumida', 14, NULL),
+('Large no Mi 34', 'Choice job day effect well hundred.', 'where', '1998-09-26', 'CONSUMIDA', 14, NULL),
 
-('Ever no Mi 35', 'Agree entire task compare product behavior.', 'he', '1961-09-08', 'Consumida', 8, NULL),
+('Ever no Mi 35', 'Agree entire task compare product behavior.', 'he', '1961-09-08', 'CONSUMIDA', 8, NULL),
 
-('Condition no Mi 36', 'Line degree product draw we letter front enter.', 'pick', '1952-02-13', 'Desconocida', 14, NULL),
+('Condition no Mi 36', 'Line degree product draw we letter front enter.', 'pick', '1952-02-13', 'DESCONOCIDA', 14, NULL),
 
-('Street no Mi 37', 'Green upon election ok.', 'parent', '1984-09-02', 'Desconocida', 16, NULL),
+('Street no Mi 37', 'Green upon election ok.', 'parent', '1984-09-02', 'DESCONOCIDA', 16, NULL),
 
-('None no Mi 38', 'Hair church call contain manage hundred.', 'issue', '1978-12-31', 'Desconocida', 9, NULL),
+('None no Mi 38', 'Hair church call contain manage hundred.', 'issue', '1978-12-31', 'DESCONOCIDA', 9, NULL),
 
-('South no Mi 39', 'Seat most computer early affect soldier evidence.', 'meeting', '1975-03-23', 'Disponible', 2, NULL),
+('South no Mi 39', 'Seat most computer early affect soldier evidence.', 'meeting', '1975-03-23', 'DISPONIBLE', 2, NULL),
 
-('Yes no Mi 40', 'Image animal event general gas Republican.', 'baby', '2014-09-08', 'Desconocida', 19, NULL),
+('Yes no Mi 40', 'Image animal event general gas Republican.', 'baby', '2014-09-08', 'DESCONOCIDA', 19, NULL),
 
-('Field no Mi 41', 'Second hear without idea always white wall movement.', 'social', '1958-10-27', 'Consumida', 6, NULL),
+('Field no Mi 41', 'Second hear without idea always white wall movement.', 'social', '1958-10-27', 'CONSUMIDA', 6, NULL),
 
-('Than no Mi 42', 'Physical whole look everyone show.', 'on', '1951-03-20', 'Disponible', 9, NULL),
+('Than no Mi 42', 'Physical whole look everyone show.', 'on', '1951-03-20', 'DISPONIBLE', 9, NULL),
 
-('Mission no Mi 43', 'Travel consumer before make president place morning fund.', 'see', '1966-08-03', 'Desconocida', 4, NULL),
+('Mission no Mi 43', 'Travel consumer before make president place morning fund.', 'see', '1966-08-03', 'DESCONOCIDA', 4, NULL),
 
-('Into no Mi 44', 'Always forward image southern its easy rather.', 'player', '1956-05-02', 'Desconocida', 2, NULL),
+('Into no Mi 44', 'Always forward image southern its easy rather.', 'player', '1956-05-02', 'DESCONOCIDA', 2, NULL),
 
-('Listen no Mi 45', 'Whole ability interest late responsibility explain.', 'decade', '2006-05-10', 'Desconocida', 8, NULL),
+('Listen no Mi 45', 'Whole ability interest late responsibility explain.', 'decade', '2006-05-10', 'DESCONOCIDA', 8, NULL),
 
-('Middle no Mi 46', 'Suggest by cell state expert across would.', 'very', '1960-06-20', 'Consumida', 17, NULL),
+('Middle no Mi 46', 'Suggest by cell state expert across would.', 'very', '1960-06-20', 'CONSUMIDA', 17, NULL),
 
-('Spend no Mi 47', 'Whatever central structure shake drive list common.', 'for', '1985-10-15', 'Desconocida', 7, NULL),
+('Spend no Mi 47', 'Whatever central structure shake drive list common.', 'for', '1985-10-15', 'DESCONOCIDA', 7, NULL),
 
-('Network no Mi 48', 'His offer sing listen newspaper yet.', 'challenge', '1949-10-11', 'Desconocida', 19, NULL),
+('Network no Mi 48', 'His offer sing listen newspaper yet.', 'challenge', '1949-10-11', 'DESCONOCIDA', 19, NULL),
 
-('Mrs no Mi 49', 'After into him after.', 'bad', '1975-10-20', 'Consumida', 11, NULL),
+('Mrs no Mi 49', 'After into him after.', 'bad', '1975-10-20', 'CONSUMIDA', 11, NULL),
 
-('Religious no Mi 50', 'Environment mind clear past various sell.', 'hit', '1992-09-17', 'Consumida', 1, NULL),
+('Religious no Mi 50', 'Environment mind clear past various sell.', 'hit', '1992-09-17', 'CONSUMIDA', 1, NULL),
 
-('Hard no Mi 51', 'Everything instead world hit fact myself.', 'provide', '1996-02-13', 'Desconocida', 4, NULL),
+('Hard no Mi 51', 'Everything instead world hit fact myself.', 'provide', '1996-02-13', 'DESCONOCIDA', 4, NULL),
 
-('Son no Mi 52', 'In just word manager set grow action.', 'include', '1962-02-09', 'Consumida', 7, NULL),
+('Son no Mi 52', 'In just word manager set grow action.', 'include', '1962-02-09', 'CONSUMIDA', 7, NULL),
 
-('Nearly no Mi 53', 'Think product establish always begin special.', 'rock', '2006-09-12', 'Desconocida', 4, NULL),
+('Nearly no Mi 53', 'Think product establish always begin special.', 'rock', '2006-09-12', 'DESCONOCIDA', 4, NULL),
 
-('Study no Mi 54', 'Total trial star time give you.', 'walk', '1972-11-06', 'Desconocida', 20, 4),
+('Study no Mi 54', 'Total trial star time give you.', 'walk', '1972-11-06', 'DESCONOCIDA', 20, 4),
 
-('Tax no Mi 55', 'Second off million use expert population.', 'world', '1988-01-05', 'Disponible', 13, NULL),
+('Tax no Mi 55', 'Second off million use expert population.', 'world', '1988-01-05', 'DISPONIBLE', 13, NULL),
 
-('Evidence no Mi 56', 'Church financial kind medical.', 'early', '1977-03-24', 'Desconocida', 4, NULL),
+('Evidence no Mi 56', 'Church financial kind medical.', 'early', '1977-03-24', 'DESCONOCIDA', 4, NULL),
 
-('Effort no Mi 57', 'Chair likely center good common plan.', 'pressure', '1976-08-29', 'Consumida', 5, 10),
+('Effort no Mi 57', 'Chair likely center good common plan.', 'pressure', '1976-08-29', 'CONSUMIDA', 5, 10),
 
-('Senior no Mi 58', 'Expect trade feel no operation.', 'particular', '1991-06-24', 'Desconocida', 16, NULL),
+('Senior no Mi 58', 'Expect trade feel no operation.', 'particular', '1991-06-24', 'DESCONOCIDA', 16, NULL),
 
-('Allow no Mi 59', 'Performance night loss exist impact same.', 'security', '2016-11-10', 'Desconocida', 2, NULL),
+('Allow no Mi 59', 'Performance night loss exist impact same.', 'security', '2016-11-10', 'DESCONOCIDA', 2, NULL),
 
-('Interview no Mi 60', 'Yeah foreign everybody young.', 'last', '1961-08-02', 'Desconocida', 15, 3),
+('Interview no Mi 60', 'Yeah foreign everybody young.', 'last', '1961-08-02', 'DESCONOCIDA', 15, 3),
 
-('Particularly no Mi 61', 'Than by budget level.', 'deep', '1968-09-29', 'Disponible', 16, NULL),
+('Particularly no Mi 61', 'Than by budget level.', 'deep', '1968-09-29', 'DISPONIBLE', 16, NULL),
 
-('Assume no Mi 62', 'Republican nearly lawyer police figure how friend.', 'quickly', '2005-07-25', 'Disponible', 7, NULL),
+('Assume no Mi 62', 'Republican nearly lawyer police figure how friend.', 'quickly', '2005-07-25', 'DISPONIBLE', 7, NULL),
 
-('Low no Mi 63', 'Factor role then now road chance agent law.', 'because', '1988-08-01', 'Disponible', 6, NULL),
+('Low no Mi 63', 'Factor role then now road chance agent law.', 'because', '1988-08-01', 'DISPONIBLE', 6, NULL),
 
-('Admit no Mi 64', 'Alone nation never black simply better throughout.', 'style', '2004-11-21', 'Disponible', 2, NULL),
+('Admit no Mi 64', 'Alone nation never black simply better throughout.', 'style', '2004-11-21', 'DISPONIBLE', 2, NULL),
 
-('Shake no Mi 65', 'Task factor particularly against seek consider anyone.', 'soon', '2002-06-04', 'Disponible', 7, NULL),
+('Shake no Mi 65', 'Task factor particularly against seek consider anyone.', 'soon', '2002-06-04', 'DISPONIBLE', 7, NULL),
 
-('Ask no Mi 66', 'Place full else security begin thousand the.', 'lose', '2010-06-10', 'Desconocida', 3, NULL),
+('Ask no Mi 66', 'Place full else security begin thousand the.', 'lose', '2010-06-10', 'DESCONOCIDA', 3, NULL),
 
-('Population no Mi 67', 'Report hospital network sell act.', 'far', '1970-08-04', 'Disponible', 9, NULL),
+('Population no Mi 67', 'Report hospital network sell act.', 'far', '1970-08-04', 'DISPONIBLE', 9, NULL),
 
-('Risk no Mi 68', 'Start control indeed today professor deep.', 'discuss', '1955-02-13', 'Disponible', 13, NULL),
+('Risk no Mi 68', 'Start control indeed today professor deep.', 'discuss', '1955-02-13', 'DISPONIBLE', 13, NULL),
 
-('Chance no Mi 69', 'Meeting nearly size beyond operation trade explain popular.', 'wrong', '1971-06-25', 'Disponible', 18, NULL),
+('Chance no Mi 69', 'Meeting nearly size beyond operation trade explain popular.', 'wrong', '1971-06-25', 'DISPONIBLE', 18, NULL),
 
-('Billion no Mi 70', 'Old former appear general along quality.', 'physical', '1988-04-16', 'Consumida', 16, NULL),
+('Billion no Mi 70', 'Old former appear general along quality.', 'physical', '1988-04-16', 'CONSUMIDA', 16, NULL),
 
-('Doctor no Mi 71', 'School next artist ten nearly let.', 'together', '1996-08-25', 'Consumida', 11, NULL),
+('Doctor no Mi 71', 'School next artist ten nearly let.', 'together', '1996-08-25', 'CONSUMIDA', 11, NULL),
 
-('Business no Mi 72', 'Alone program respond.', 'next', '1981-10-25', 'Desconocida', 15, 9),
+('Business no Mi 72', 'Alone program respond.', 'next', '1981-10-25', 'DESCONOCIDA', 15, 9),
 
-('Open no Mi 73', 'Run meeting close son answer collection number.', 'hold', '2021-09-29', 'Disponible', 20, 10),
+('Open no Mi 73', 'Run meeting close son answer collection number.', 'hold', '2021-09-29', 'DISPONIBLE', 20, 10),
 
-('View no Mi 74', 'Feel man country.', 'threat', '1953-08-10', 'Consumida', 14, NULL),
+('View no Mi 74', 'Feel man country.', 'threat', '1953-08-10', 'CONSUMIDA', 14, NULL),
 
-('Herself no Mi 75', 'Response save last boy who.', 'although', '2011-11-20', 'Disponible', 7, NULL),
+('Herself no Mi 75', 'Response save last boy who.', 'although', '2011-11-20', 'DISPONIBLE', 7, NULL),
 
-('That no Mi 76', 'Size leg recent magazine.', 'some', '1980-01-22', 'Consumida', 3, NULL),
+('That no Mi 76', 'Size leg recent magazine.', 'some', '1980-01-22', 'CONSUMIDA', 3, NULL),
 
-('Resource no Mi 77', 'At he couple whose music wrong decision.', 'reveal', '2016-03-25', 'Desconocida', 9, NULL),
+('Resource no Mi 77', 'At he couple whose music wrong decision.', 'reveal', '2016-03-25', 'DESCONOCIDA', 9, NULL),
 
-('All no Mi 78', 'Support answer human summer personal standard.', 'among', '1980-08-31', 'Consumida', 9, NULL),
+('All no Mi 78', 'Support answer human summer personal standard.', 'among', '1980-08-31', 'CONSUMIDA', 9, NULL),
 
-('Song no Mi 79', 'Or half bag fire company travel.', 'administration', '2022-12-03', 'Desconocida', 4, NULL),
+('Song no Mi 79', 'Or half bag fire company travel.', 'administration', '2022-12-03', 'DESCONOCIDA', 4, NULL),
 
-('Message no Mi 80', 'Benefit quickly affect her mother.', 'provide', '1983-10-12', 'Disponible', 8, NULL),
+('Message no Mi 80', 'Benefit quickly affect her mother.', 'provide', '1983-10-12', 'DISPONIBLE', 8, NULL),
 
-('Thousand no Mi 81', 'Our school page yourself.', 'tax', '1978-10-10', 'Disponible', 13, NULL),
+('Thousand no Mi 81', 'Our school page yourself.', 'tax', '1978-10-10', 'DISPONIBLE', 13, NULL),
 
-('Able no Mi 82', 'Policy behind thus statement paper join reach.', 'fine', '1977-05-10', 'Consumida', 1, NULL),
+('Able no Mi 82', 'Policy behind thus statement paper join reach.', 'fine', '1977-05-10', 'CONSUMIDA', 1, NULL),
 
-('Perform no Mi 83', 'Environmental fire after.', 'financial', '1993-03-28', 'Consumida', 10, 1),
+('Perform no Mi 83', 'Environmental fire after.', 'financial', '1993-03-28', 'CONSUMIDA', 10, 1),
 
-('Film no Mi 84', 'Town maintain politics car ball tonight reveal.', 'write', '2003-03-10', 'Disponible', 18, NULL),
+('Film no Mi 84', 'Town maintain politics car ball tonight reveal.', 'write', '2003-03-10', 'DISPONIBLE', 18, NULL),
 
-('Method no Mi 85', 'Act place my team.', 'American', '1977-08-11', 'Consumida', 8, NULL),
+('Method no Mi 85', 'Act place my team.', 'American', '1977-08-11', 'CONSUMIDA', 8, NULL),
 
-('Whom no Mi 86', 'Tonight rather middle second what executive room camera.', 'I', '1999-04-19', 'Consumida', 1, NULL),
+('Whom no Mi 86', 'Tonight rather middle second what executive room camera.', 'I', '1999-04-19', 'CONSUMIDA', 1, NULL),
 
-('Never no Mi 87', 'Physical debate in cold.', 'high', '1997-07-15', 'Desconocida', 3, NULL),
+('Never no Mi 87', 'Physical debate in cold.', 'high', '1997-07-15', 'DESCONOCIDA', 3, NULL),
 
-('Summer no Mi 88', 'Dream forget own couple think.', 'garden', '1986-05-30', 'Disponible', 10, 11),
+('Summer no Mi 88', 'Dream forget own couple think.', 'garden', '1986-05-30', 'DISPONIBLE', 10, 11),
 
-('Conference no Mi 89', 'Instead buy magazine sure coach list.', 'very', '1992-06-13', 'Desconocida', 1, NULL),
+('Conference no Mi 89', 'Instead buy magazine sure coach list.', 'very', '1992-06-13', 'DESCONOCIDA', 1, NULL),
 
-('They no Mi 90', 'Season magazine white can anything.', 'within', '2019-04-18', 'Disponible', 19, NULL),
+('They no Mi 90', 'Season magazine white can anything.', 'within', '2019-04-18', 'DISPONIBLE', 19, NULL),
 
-('Southern no Mi 91', 'End pattern according Congress mean paper month.', 'open', '1956-02-09', 'Consumida', 11, NULL),
+('Southern no Mi 91', 'End pattern according Congress mean paper month.', 'open', '1956-02-09', 'CONSUMIDA', 11, NULL),
 
-('Care no Mi 92', 'Know public resource.', 'life', '2005-03-31', 'Desconocida', 15, 1),
+('Care no Mi 92', 'Know public resource.', 'life', '2005-03-31', 'DESCONOCIDA', 15, 1),
 
-('Value no Mi 93', 'Determine environmental field challenge out once.', 'sea', '2017-06-20', 'Desconocida', 6, NULL),
+('Value no Mi 93', 'Determine environmental field challenge out once.', 'sea', '2017-06-20', 'DESCONOCIDA', 6, NULL),
 
-('Behind no Mi 94', 'Remain help role boy new.', 'cost', '1985-03-02', 'Disponible', 1, NULL),
+('Behind no Mi 94', 'Remain help role boy new.', 'cost', '1985-03-02', 'DISPONIBLE', 1, NULL),
 
-('Brother no Mi 95', 'Expect condition us my record.', 'vote', '2021-04-03', 'Desconocida', 20, 14),
+('Brother no Mi 95', 'Expect condition us my record.', 'vote', '2021-04-03', 'DESCONOCIDA', 20, 14),
 
-('Reflect no Mi 96', 'News improve shake become event.', 'or', '1998-11-21', 'Consumida', 18, NULL),
+('Reflect no Mi 96', 'News improve shake become event.', 'or', '1998-11-21', 'CONSUMIDA', 18, NULL),
 
-('Yet no Mi 97', 'Personal manager activity someone economy during economic.', 'help', '1971-09-06', 'Disponible', 6, NULL),
+('Yet no Mi 97', 'Personal manager activity someone economy during economic.', 'help', '1971-09-06', 'DISPONIBLE', 6, NULL),
 
-('Professional no Mi 98', 'Buy apply ever personal light drop.', 'force', '1970-08-16', 'Desconocida', 1, NULL),
+('Professional no Mi 98', 'Buy apply ever personal light drop.', 'force', '1970-08-16', 'DESCONOCIDA', 1, NULL),
 
-('Boy no Mi 99', 'Baby course design color thus.', 'company', '1950-02-20', 'Desconocida', 1, NULL),
+('Boy no Mi 99', 'Baby course design color thus.', 'company', '1950-02-20', 'DESCONOCIDA', 1, NULL),
 
-('Training no Mi 100', 'Beat benefit listen important they family need could.', 'both', '1976-03-19', 'Desconocida', 11, NULL),
+('Training no Mi 100', 'Beat benefit listen important they family need could.', 'both', '1976-03-19', 'DESCONOCIDA', 11, NULL),
 
-('Approach no Mi 101', 'Another always just listen style response Democrat.', 'apply', '1964-05-27', 'Desconocida', 13, NULL),
+('Approach no Mi 101', 'Another always just listen style response Democrat.', 'apply', '1964-05-27', 'DESCONOCIDA', 13, NULL),
 
-('Color no Mi 102', 'Create sister challenge best foot kitchen hundred.', 'simply', '1989-01-17', 'Disponible', 13, NULL),
+('Color no Mi 102', 'Create sister challenge best foot kitchen hundred.', 'simply', '1989-01-17', 'DISPONIBLE', 13, NULL),
 
-('Sound no Mi 103', 'Discussion pass treatment probably hit room think.', 'land', '1989-10-31', 'Consumida', 15, 4),
+('Sound no Mi 103', 'Discussion pass treatment probably hit room think.', 'land', '1989-10-31', 'CONSUMIDA', 15, 4),
 
-('Draw no Mi 104', 'Girl road daughter.', 'development', '1950-07-09', 'Disponible', 6, NULL),
+('Draw no Mi 104', 'Girl road daughter.', 'development', '1950-07-09', 'DISPONIBLE', 6, NULL),
 
-('Another no Mi 105', 'Job everybody real decide.', 'watch', '1970-01-25', 'Desconocida', 19, NULL),
+('Another no Mi 105', 'Job everybody real decide.', 'watch', '1970-01-25', 'DESCONOCIDA', 19, NULL),
 
-('Available no Mi 106', 'Especially public apply short deal present leader.', 'receive', '2000-08-03', 'Desconocida', 9, NULL),
+('Available no Mi 106', 'Especially public apply short deal present leader.', 'receive', '2000-08-03', 'DESCONOCIDA', 9, NULL),
 
-('Meet no Mi 107', 'Mind suggest game.', 'save', '1951-07-22', 'Disponible', 15, 11),
+('Meet no Mi 107', 'Mind suggest game.', 'save', '1951-07-22', 'DISPONIBLE', 15, 11),
 
-('Kitchen no Mi 108', 'Care former remember night allow exist.', 'finish', '1997-03-28', 'Desconocida', 5, 7),
+('Kitchen no Mi 108', 'Care former remember night allow exist.', 'finish', '1997-03-28', 'DESCONOCIDA', 5, 7),
 
-('Quite no Mi 109', 'System traditional conference guess feeling keep boy.', 'speech', '1997-06-19', 'Desconocida', 19, NULL),
+('Quite no Mi 109', 'System traditional conference guess feeling keep boy.', 'speech', '1997-06-19', 'DESCONOCIDA', 19, NULL),
 
-('Fill no Mi 110', 'Edge north car allow.', 'chair', '1987-04-21', 'Desconocida', 4, NULL),
+('Fill no Mi 110', 'Edge north car allow.', 'chair', '1987-04-21', 'DESCONOCIDA', 4, NULL),
 
-('Single no Mi 111', 'Issue culture itself along.', 'customer', '1980-05-08', 'Desconocida', 10, 3),
+('Single no Mi 111', 'Issue culture itself along.', 'customer', '1980-05-08', 'DESCONOCIDA', 10, 3),
 
-('Within no Mi 112', 'Board official shoulder maybe.', 'federal', '1957-09-13', 'Disponible', 19, NULL),
+('Within no Mi 112', 'Board official shoulder maybe.', 'federal', '1957-09-13', 'DISPONIBLE', 19, NULL),
 
-('Outside no Mi 113', 'Yeah enough score much would ever summer air.', 'yard', '1952-02-25', 'Desconocida', 8, NULL),
+('Outside no Mi 113', 'Yeah enough score much would ever summer air.', 'yard', '1952-02-25', 'DESCONOCIDA', 8, NULL),
 
-('Get no Mi 114', 'However quite place pass radio.', 'mother', '1953-05-20', 'Disponible', 13, NULL),
+('Get no Mi 114', 'However quite place pass radio.', 'mother', '1953-05-20', 'DISPONIBLE', 13, NULL),
 
-('Artist no Mi 115', 'Stop worry recently no loss open skin.', 'speak', '2003-09-14', 'Consumida', 14, NULL),
+('Artist no Mi 115', 'Stop worry recently no loss open skin.', 'speak', '2003-09-14', 'CONSUMIDA', 14, NULL),
 
-('Million no Mi 116', 'Economy team always usually politics trouble.', 'boy', '2012-03-28', 'Desconocida', 12, NULL),
+('Million no Mi 116', 'Economy team always usually politics trouble.', 'boy', '2012-03-28', 'DESCONOCIDA', 12, NULL),
 
-('Camera no Mi 117', 'Exist before area plan main result.', 'wonder', '1970-03-10', 'Disponible', 3, NULL),
+('Camera no Mi 117', 'Exist before area plan main result.', 'wonder', '1970-03-10', 'DISPONIBLE', 3, NULL),
 
-('Part no Mi 118', 'International third read arm.', 'expect', '1997-12-10', 'Disponible', 15, 7),
+('Part no Mi 118', 'International third read arm.', 'expect', '1997-12-10', 'DISPONIBLE', 15, 7),
 
-('Policy no Mi 119', 'Develop yes any.', 'we', '1997-10-09', 'Disponible', 19, NULL),
+('Policy no Mi 119', 'Develop yes any.', 'we', '1997-10-09', 'DISPONIBLE', 19, NULL),
 
-('Respond no Mi 120', 'Commercial building anything talk senior relationship.', 'party', '1954-01-01', 'Disponible', 16, NULL),
+('Respond no Mi 120', 'Commercial building anything talk senior relationship.', 'party', '1954-01-01', 'DISPONIBLE', 16, NULL),
 
-('Sign no Mi 121', 'Doctor environment many appear.', 'similar', '1988-09-03', 'Disponible', 3, NULL),
+('Sign no Mi 121', 'Doctor environment many appear.', 'similar', '1988-09-03', 'DISPONIBLE', 3, NULL),
 
-('Either no Mi 122', 'Pull very eat sing strategy.', 'ok', '2005-08-29', 'Consumida', 4, NULL),
+('Either no Mi 122', 'Pull very eat sing strategy.', 'ok', '2005-08-29', 'CONSUMIDA', 4, NULL),
 
-('World no Mi 123', 'Marriage investment some.', 'source', '1993-07-20', 'Desconocida', 19, NULL),
+('World no Mi 123', 'Marriage investment some.', 'source', '1993-07-20', 'DESCONOCIDA', 19, NULL),
 
-('Glass no Mi 124', 'Section realize source occur watch country positive loss.', 'from', '1980-05-15', 'Disponible', 5, 13),
+('Glass no Mi 124', 'Section realize source occur watch country positive loss.', 'from', '1980-05-15', 'DISPONIBLE', 5, 13),
 
-('Room no Mi 125', 'Race risk us.', 'fire', '1965-05-11', 'Desconocida', 19, NULL),
+('Room no Mi 125', 'Race risk us.', 'fire', '1965-05-11', 'DESCONOCIDA', 19, NULL),
 
-('Half no Mi 126', 'And special sell.', 'involve', '1997-01-15', 'Disponible', 6, NULL),
+('Half no Mi 126', 'And special sell.', 'involve', '1997-01-15', 'DISPONIBLE', 6, NULL),
 
-('Citizen no Mi 127', 'Wife science child project wind analysis my.', 'detail', '2004-12-01', 'Consumida', 19, NULL),
+('Citizen no Mi 127', 'Wife science child project wind analysis my.', 'detail', '2004-12-01', 'CONSUMIDA', 19, NULL),
 
-('Office no Mi 128', 'Color citizen baby training measure traditional.', 'factor', '1987-11-10', 'Consumida', 4, NULL),
+('Office no Mi 128', 'Color citizen baby training measure traditional.', 'factor', '1987-11-10', 'CONSUMIDA', 4, NULL),
 
-('Father no Mi 129', 'Animal together form enter too cover.', 'whether', '2001-04-20', 'Desconocida', 16, NULL),
+('Father no Mi 129', 'Animal together form enter too cover.', 'whether', '2001-04-20', 'DESCONOCIDA', 16, NULL),
 
-('Simply no Mi 130', 'Entire ten step include.', 'discuss', '1950-09-30', 'Consumida', 4, NULL),
+('Simply no Mi 130', 'Entire ten step include.', 'discuss', '1950-09-30', 'CONSUMIDA', 4, NULL),
 
-('Writer no Mi 131', 'Television activity letter outside police.', 'world', '2016-12-12', 'Desconocida', 16, NULL),
+('Writer no Mi 131', 'Television activity letter outside police.', 'world', '2016-12-12', 'DESCONOCIDA', 16, NULL),
 
-('Pretty no Mi 132', 'Board join use.', 'water', '1984-12-20', 'Consumida', 8, NULL),
+('Pretty no Mi 132', 'Board join use.', 'water', '1984-12-20', 'CONSUMIDA', 8, NULL),
 
-('Despite no Mi 133', 'Religious particularly against spend town third woman.', 'simple', '1974-08-19', 'Desconocida', 12, NULL),
+('Despite no Mi 133', 'Religious particularly against spend town third woman.', 'simple', '1974-08-19', 'DESCONOCIDA', 12, NULL),
 
-('Arrive no Mi 134', 'Cell ball fire bit.', 'this', '2021-03-08', 'Disponible', 2, NULL),
+('Arrive no Mi 134', 'Cell ball fire bit.', 'this', '2021-03-08', 'DISPONIBLE', 2, NULL),
 
-('Cultural no Mi 135', 'Catch create happen actually available reality scientist group.', 'group', '1987-08-25', 'Disponible', 8, NULL),
+('Cultural no Mi 135', 'Catch create happen actually available reality scientist group.', 'group', '1987-08-25', 'DISPONIBLE', 8, NULL),
 
-('When no Mi 136', 'Side partner blood hope very behind.', 'finish', '1946-06-20', 'Desconocida', 4, NULL),
+('When no Mi 136', 'Side partner blood hope very behind.', 'finish', '1946-06-20', 'DESCONOCIDA', 4, NULL),
 
-('On no Mi 137', 'Music tell write responsibility.', 'moment', '1972-06-23', 'Desconocida', 3, NULL),
+('On no Mi 137', 'Music tell write responsibility.', 'moment', '1972-06-23', 'DESCONOCIDA', 3, NULL),
 
-('Woman no Mi 138', 'Less her bit wish person.', 'argue', '1969-09-12', 'Disponible', 16, NULL),
+('Woman no Mi 138', 'Less her bit wish person.', 'argue', '1969-09-12', 'DISPONIBLE', 16, NULL),
 
-('Know no Mi 139', 'Account drug have PM skill laugh.', 'century', '1976-07-03', 'Desconocida', 2, NULL),
+('Know no Mi 139', 'Account drug have PM skill laugh.', 'century', '1976-07-03', 'DESCONOCIDA', 2, NULL),
 
-('Goal no Mi 140', 'Business table issue least response player.', 'more', '2000-03-28', 'Desconocida', 16, NULL),
+('Goal no Mi 140', 'Business table issue least response player.', 'more', '2000-03-28', 'DESCONOCIDA', 16, NULL),
 
-('Agent no Mi 141', 'Study check away gun relationship black cell picture.', 'may', '1963-01-10', 'Consumida', 17, NULL),
+('Agent no Mi 141', 'Study check away gun relationship black cell picture.', 'may', '1963-01-10', 'CONSUMIDA', 17, NULL),
 
-('Fish no Mi 142', 'Assume family type morning several.', 'treat', '1951-04-18', 'Consumida', 7, NULL),
+('Fish no Mi 142', 'Assume family type morning several.', 'treat', '1951-04-18', 'CONSUMIDA', 7, NULL),
 
-('True no Mi 143', 'Different everyone true your.', 'kind', '2017-12-20', 'Consumida', 2, NULL),
+('True no Mi 143', 'Different everyone true your.', 'kind', '2017-12-20', 'CONSUMIDA', 2, NULL),
 
-('Heavy no Mi 144', 'Three skill ball.', 'practice', '1993-09-13', 'Desconocida', 17, NULL),
+('Heavy no Mi 144', 'Three skill ball.', 'practice', '1993-09-13', 'DESCONOCIDA', 17, NULL),
 
-('Why no Mi 145', 'Pass enough country tonight.', 'project', '1959-07-23', 'Desconocida', 9, NULL),
+('Why no Mi 145', 'Pass enough country tonight.', 'project', '1959-07-23', 'DESCONOCIDA', 9, NULL),
 
-('Director no Mi 146', 'Throw team my glass threat.', 'wrong', '1961-08-25', 'Disponible', 20, 9),
+('Director no Mi 146', 'Throw team my glass threat.', 'wrong', '1961-08-25', 'DISPONIBLE', 20, 9),
 
-('Story no Mi 147', 'Lead between indeed seem democratic he front.', 'station', '2023-11-30', 'Desconocida', 4, NULL),
+('Story no Mi 147', 'Lead between indeed seem democratic he front.', 'station', '2023-11-30', 'DESCONOCIDA', 4, NULL),
 
-('Forward no Mi 148', 'Not even war.', 'degree', '1998-10-19', 'Desconocida', 6, NULL),
+('Forward no Mi 148', 'Not even war.', 'degree', '1998-10-19', 'DESCONOCIDA', 6, NULL),
 
-('Deep no Mi 149', 'Money hour and what.', 'toward', '1984-03-27', 'Disponible', 19, NULL),
+('Deep no Mi 149', 'Money hour and what.', 'toward', '1984-03-27', 'DISPONIBLE', 19, NULL),
 
-('Morning no Mi 150', 'At conference best under heart customer next.', 'site', '1979-01-01', 'Desconocida', 8, NULL);
+('Morning no Mi 150', 'At conference best under heart customer next.', 'site', '1979-01-01', 'DESCONOCIDA', 8, NULL);
 
 INSERT INTO habilidad (nombre, descripcion) VALUES
 
@@ -892,305 +892,305 @@ INSERT INTO fruta_habilidad (id_fruta, id_habilidad, nivel_manifestacion) VALUES
 
 INSERT INTO personaje (nombre, apodo, fecha_nacimiento, sexo, estado, id_ocupacion) VALUES
 
-('Wesley Wilcox', 'thought', '2005-10-23', 'M', 'Desconocido', 20),
+('Wesley Wilcox', 'thought', '2005-10-23', 'M', 'DESCONOCIDO', 20),
 
-('Mr. Joshua Greene', 'shake', '2007-03-25', 'F', 'Desconocido', 41),
+('Mr. Joshua Greene', 'shake', '2007-03-25', 'F', 'DESCONOCIDO', 41),
 
-('Jennifer Shaw', 'ago', '1985-09-22', 'M', 'Vivo', 16),
+('Jennifer Shaw', 'ago', '1985-09-22', 'M', 'VIVO', 16),
 
-('Sylvia Mendez', 'call', '1997-10-21', 'F', 'Vivo', 26),
+('Sylvia Mendez', 'call', '1997-10-21', 'F', 'VIVO', 26),
 
-('David Hardy', 'six', '2006-07-12', 'F', 'Muerto', 10),
+('David Hardy', 'six', '2006-07-12', 'F', 'MUERTO', 10),
 
-('Joshua Ortega', 'wait', '2002-01-12', 'F', 'Muerto', 43),
+('Joshua Ortega', 'wait', '2002-01-12', 'F', 'MUERTO', 43),
 
-('Jonathan Bell', 'find', '1991-03-14', 'M', 'Desconocido', 41),
+('Jonathan Bell', 'find', '1991-03-14', 'M', 'DESCONOCIDO', 41),
 
-('Rebecca Hampton', 'pick', '1992-01-30', 'M', 'Desconocido', 15),
+('Rebecca Hampton', 'pick', '1992-01-30', 'M', 'DESCONOCIDO', 15),
 
-('David Rowe', 'property', '1996-12-22', 'F', 'Muerto', 32),
+('David Rowe', 'property', '1996-12-22', 'F', 'MUERTO', 32),
 
-('Andrew Alexander', 'down', '2001-11-17', 'F', 'Desconocido', 41),
+('Andrew Alexander', 'down', '2001-11-17', 'F', 'DESCONOCIDO', 41),
 
-('Peter Ramos', 'party', '2009-02-12', 'F', 'Desconocido', 22),
+('Peter Ramos', 'party', '2009-02-12', 'F', 'DESCONOCIDO', 22),
 
-('Brian Beck', 'similar', '2004-02-07', 'M', 'Muerto', 40),
+('Brian Beck', 'similar', '2004-02-07', 'M', 'MUERTO', 40),
 
-('Mario Hernandez', 'matter', '1990-05-16', 'F', 'Desconocido', 28),
+('Mario Hernandez', 'matter', '1990-05-16', 'F', 'DESCONOCIDO', 28),
 
-('Joseph Shepard', 'capital', '1995-09-06', 'F', 'Muerto', 34),
+('Joseph Shepard', 'capital', '1995-09-06', 'F', 'MUERTO', 34),
 
-('Douglas Perez', 'yard', '1989-10-13', 'F', 'Desconocido', 48),
+('Douglas Perez', 'yard', '1989-10-13', 'F', 'DESCONOCIDO', 48),
 
-('Terry Valentine', 'deep', '1995-10-18', 'M', 'Desconocido', 34),
+('Terry Valentine', 'deep', '1995-10-18', 'M', 'DESCONOCIDO', 34),
 
-('Michael Byrd', 'now', '1994-10-09', 'F', 'Desconocido', 10),
+('Michael Byrd', 'now', '1994-10-09', 'F', 'DESCONOCIDO', 10),
 
-('Elizabeth Miller', 'see', '1990-08-04', 'F', 'Desconocido', 18),
+('Elizabeth Miller', 'see', '1990-08-04', 'F', 'DESCONOCIDO', 18),
 
-('Gloria Sparks', 'indeed', '2000-02-26', 'F', 'Muerto', 28),
+('Gloria Sparks', 'indeed', '2000-02-26', 'F', 'MUERTO', 28),
 
-('Gary Robinson', 'table', '2009-09-28', 'M', 'Desconocido', 12),
+('Gary Robinson', 'table', '2009-09-28', 'M', 'DESCONOCIDO', 12),
 
-('Mariah Moses', 'leader', '1987-08-31', 'M', 'Desconocido', 8),
+('Mariah Moses', 'leader', '1987-08-31', 'M', 'DESCONOCIDO', 8),
 
-('Tracy Franklin', 'I', '2007-06-19', 'M', 'Muerto', 10),
+('Tracy Franklin', 'I', '2007-06-19', 'M', 'MUERTO', 10),
 
-('Dana Patel DDS', 'rather', '1989-04-04', 'M', 'Vivo', 4),
+('Dana Patel DDS', 'rather', '1989-04-04', 'M', 'VIVO', 4),
 
-('Thomas Greene', 'include', '1995-07-15', 'F', 'Muerto', 46),
+('Thomas Greene', 'include', '1995-07-15', 'F', 'MUERTO', 46),
 
-('Michelle Collins', 'may', '1986-09-07', 'F', 'Vivo', 26),
+('Michelle Collins', 'may', '1986-09-07', 'F', 'VIVO', 26),
 
-('Barbara Reid', 'day', '1997-10-11', 'M', 'Muerto', 32),
+('Barbara Reid', 'day', '1997-10-11', 'M', 'MUERTO', 32),
 
-('John Merritt', 'campaign', '2001-04-22', 'F', 'Muerto', 49),
+('John Merritt', 'campaign', '2001-04-22', 'F', 'MUERTO', 49),
 
-('Timothy Drake', 'president', '1996-08-03', 'F', 'Desconocido', 47),
+('Timothy Drake', 'president', '1996-08-03', 'F', 'DESCONOCIDO', 47),
 
-('Curtis Lewis', 'buy', '2007-07-07', 'M', 'Desconocido', 50),
+('Curtis Lewis', 'buy', '2007-07-07', 'M', 'DESCONOCIDO', 50),
 
-('Anthony Garcia', 'away', '2002-04-07', 'M', 'Vivo', 2),
+('Anthony Garcia', 'away', '2002-04-07', 'M', 'VIVO', 2),
 
-('Heather Hill', 'clear', '1997-06-15', 'F', 'Desconocido', 6),
+('Heather Hill', 'clear', '1997-06-15', 'F', 'DESCONOCIDO', 6),
 
-('Kendra Campbell', 'accept', '2001-07-10', 'F', 'Vivo', 37),
+('Kendra Campbell', 'accept', '2001-07-10', 'F', 'VIVO', 37),
 
-('Charles Moore', 'manager', '2008-09-18', 'M', 'Desconocido', 35),
+('Charles Moore', 'manager', '2008-09-18', 'M', 'DESCONOCIDO', 35),
 
-('Tara Edwards', 'continue', '1998-10-03', 'M', 'Desconocido', 50),
+('Tara Edwards', 'continue', '1998-10-03', 'M', 'DESCONOCIDO', 50),
 
-('Jamie Hansen', 'play', '1998-10-15', 'M', 'Vivo', 23),
+('Jamie Hansen', 'play', '1998-10-15', 'M', 'VIVO', 23),
 
-('Clinton Johnson', 'can', '1991-07-11', 'F', 'Desconocido', 36),
+('Clinton Johnson', 'can', '1991-07-11', 'F', 'DESCONOCIDO', 36),
 
-('Michelle Simon', 'analysis', '2000-11-19', 'M', 'Muerto', 1),
+('Michelle Simon', 'analysis', '2000-11-19', 'M', 'MUERTO', 1),
 
-('Daniel Costa', 'light', '2007-04-04', 'F', 'Vivo', 30),
+('Daniel Costa', 'light', '2007-04-04', 'F', 'VIVO', 30),
 
-('Kara Todd', 'man', '1994-06-19', 'M', 'Desconocido', 4),
+('Kara Todd', 'man', '1994-06-19', 'M', 'DESCONOCIDO', 4),
 
-('Juan Skinner', 'energy', '1989-12-28', 'F', 'Vivo', 48),
+('Juan Skinner', 'energy', '1989-12-28', 'F', 'VIVO', 48),
 
-('Dr. Sean Brown', 'join', '1995-06-09', 'F', 'Muerto', 48),
+('Dr. Sean Brown', 'join', '1995-06-09', 'F', 'MUERTO', 48),
 
-('Matthew Stewart', 'my', '1994-06-15', 'F', 'Vivo', 4),
+('Matthew Stewart', 'my', '1994-06-15', 'F', 'VIVO', 4),
 
-('Gregory Webb', 'unit', '2005-01-28', 'F', 'Muerto', 40),
+('Gregory Webb', 'unit', '2005-01-28', 'F', 'MUERTO', 40),
 
-('Matthew Lee', 'somebody', '1996-07-12', 'F', 'Desconocido', 15),
+('Matthew Lee', 'somebody', '1996-07-12', 'F', 'DESCONOCIDO', 15),
 
-('Anthony Novak', 'situation', '2006-09-26', 'F', 'Vivo', 36),
+('Anthony Novak', 'situation', '2006-09-26', 'F', 'VIVO', 36),
 
-('Jon Hood', 'get', '1994-08-10', 'F', 'Desconocido', 1),
+('Jon Hood', 'get', '1994-08-10', 'F', 'DESCONOCIDO', 1),
 
-('Kimberly Griffith', 'early', '1987-02-22', 'M', 'Muerto', 12),
+('Kimberly Griffith', 'early', '1987-02-22', 'M', 'MUERTO', 12),
 
-('Danielle Smith DVM', 'produce', '1997-08-17', 'F', 'Vivo', 12),
+('Danielle Smith DVM', 'produce', '1997-08-17', 'F', 'VIVO', 12),
 
-('Casey Estrada', 'reduce', '2008-09-09', 'F', 'Vivo', 43),
+('Casey Estrada', 'reduce', '2008-09-09', 'F', 'VIVO', 43),
 
-('Dana Anderson', 'believe', '2005-06-18', 'M', 'Muerto', 15),
+('Dana Anderson', 'believe', '2005-06-18', 'M', 'MUERTO', 15),
 
-('Andre Keith', 'chance', '2007-06-21', 'M', 'Vivo', 41),
+('Andre Keith', 'chance', '2007-06-21', 'M', 'VIVO', 41),
 
-('Scott Fitzgerald', 'important', '1994-12-13', 'M', 'Desconocido', 22),
+('Scott Fitzgerald', 'important', '1994-12-13', 'M', 'DESCONOCIDO', 22),
 
-('Timothy Hernandez DDS', 'particularly', '2008-04-19', 'M', 'Desconocido', 46),
+('Timothy Hernandez DDS', 'particularly', '2008-04-19', 'M', 'DESCONOCIDO', 46),
 
-('Travis Alexander', 'not', '2007-05-21', 'F', 'Desconocido', 42),
+('Travis Alexander', 'not', '2007-05-21', 'F', 'DESCONOCIDO', 42),
 
-('Heather Shepherd', 'end', '1996-01-09', 'M', 'Vivo', 45),
+('Heather Shepherd', 'end', '1996-01-09', 'M', 'VIVO', 45),
 
-('William Townsend', 'sit', '1987-03-26', 'F', 'Desconocido', 22),
+('William Townsend', 'sit', '1987-03-26', 'F', 'DESCONOCIDO', 22),
 
-('Richard Alvarez', 'change', '1995-03-10', 'M', 'Muerto', 26),
+('Richard Alvarez', 'change', '1995-03-10', 'M', 'MUERTO', 26),
 
-('Anthony Walsh', 'true', '1988-08-20', 'M', 'Desconocido', 33),
+('Anthony Walsh', 'true', '1988-08-20', 'M', 'DESCONOCIDO', 33),
 
-('Bob Jones', 'special', '1986-09-03', 'F', 'Vivo', 48),
+('Bob Jones', 'special', '1986-09-03', 'F', 'VIVO', 48),
 
-('William Edwards', 'push', '2001-10-08', 'F', 'Desconocido', 20),
+('William Edwards', 'push', '2001-10-08', 'F', 'DESCONOCIDO', 20),
 
-('Joshua Steele', 'new', '2006-10-14', 'M', 'Vivo', 36),
+('Joshua Steele', 'new', '2006-10-14', 'M', 'VIVO', 36),
 
-('Alexander Hartman', 'claim', '2004-08-17', 'F', 'Muerto', 8),
+('Alexander Hartman', 'claim', '2004-08-17', 'F', 'MUERTO', 8),
 
-('Zachary Garcia', 'forget', '1994-05-04', 'M', 'Vivo', 22),
+('Zachary Garcia', 'forget', '1994-05-04', 'M', 'VIVO', 22),
 
-('Aaron Medina', 'Mr', '1987-04-27', 'F', 'Desconocido', 50),
+('Aaron Medina', 'Mr', '1987-04-27', 'F', 'DESCONOCIDO', 50),
 
-('Joe Herrera MD', 'consider', '1999-04-25', 'M', 'Muerto', 4),
+('Joe Herrera MD', 'consider', '1999-04-25', 'M', 'MUERTO', 4),
 
-('David Marquez', 'so', '2001-03-27', 'M', 'Vivo', 37),
+('David Marquez', 'so', '2001-03-27', 'M', 'VIVO', 37),
 
-('Grant Rice', 'performance', '1992-03-23', 'M', 'Muerto', 36),
+('Grant Rice', 'performance', '1992-03-23', 'M', 'MUERTO', 36),
 
-('Michael Barber', 'interview', '2006-11-02', 'M', 'Muerto', 34),
+('Michael Barber', 'interview', '2006-11-02', 'M', 'MUERTO', 34),
 
-('Megan Patterson', 'easy', '1990-08-25', 'F', 'Desconocido', 13),
+('Megan Patterson', 'easy', '1990-08-25', 'F', 'DESCONOCIDO', 13),
 
-('Gary Barnett', 'language', '2005-09-27', 'M', 'Muerto', 15),
+('Gary Barnett', 'language', '2005-09-27', 'M', 'MUERTO', 15),
 
-('Nathan Edwards', 'play', '2009-08-23', 'M', 'Muerto', 7),
+('Nathan Edwards', 'play', '2009-08-23', 'M', 'MUERTO', 7),
 
-('Taylor Parker', 'believe', '1992-10-02', 'M', 'Muerto', 41),
+('Taylor Parker', 'believe', '1992-10-02', 'M', 'MUERTO', 41),
 
-('Michael Gregory', 'similar', '1987-10-09', 'M', 'Muerto', 11),
+('Michael Gregory', 'similar', '1987-10-09', 'M', 'MUERTO', 11),
 
-('Elizabeth Foley DDS', 'tough', '1995-02-20', 'F', 'Muerto', 29),
+('Elizabeth Foley DDS', 'tough', '1995-02-20', 'F', 'MUERTO', 29),
 
-('Robert Ramirez', 'official', '2005-09-19', 'F', 'Muerto', 38),
+('Robert Ramirez', 'official', '2005-09-19', 'F', 'MUERTO', 38),
 
-('Christopher Mcfarland', 'fact', '2001-01-03', 'F', 'Desconocido', 32),
+('Christopher Mcfarland', 'fact', '2001-01-03', 'F', 'DESCONOCIDO', 32),
 
-('Alejandra Lucero', 'step', '1997-11-24', 'M', 'Muerto', 24),
+('Alejandra Lucero', 'step', '1997-11-24', 'M', 'MUERTO', 24),
 
-('Calvin Le', 'behavior', '1992-05-07', 'F', 'Vivo', 7),
+('Calvin Le', 'behavior', '1992-05-07', 'F', 'VIVO', 7),
 
-('Mitchell Bates', 'not', '2005-03-12', 'M', 'Vivo', 44),
+('Mitchell Bates', 'not', '2005-03-12', 'M', 'VIVO', 44),
 
-('Carlos Mathis', 'hold', '1995-05-02', 'M', 'Muerto', 13),
+('Carlos Mathis', 'hold', '1995-05-02', 'M', 'MUERTO', 13),
 
-('Jaime Ayala', 'painting', '1999-08-30', 'M', 'Desconocido', 26),
+('Jaime Ayala', 'painting', '1999-08-30', 'M', 'DESCONOCIDO', 26),
 
-('Michael Greene', 'around', '1986-04-19', 'F', 'Desconocido', 34),
+('Michael Greene', 'around', '1986-04-19', 'F', 'DESCONOCIDO', 34),
 
-('Jason Walsh', 'enjoy', '1998-10-25', 'M', 'Muerto', 49),
+('Jason Walsh', 'enjoy', '1998-10-25', 'M', 'MUERTO', 49),
 
-('Jason Browning', 'event', '1995-03-19', 'F', 'Desconocido', 24),
+('Jason Browning', 'event', '1995-03-19', 'F', 'DESCONOCIDO', 24),
 
-('Charles Clark', 'hour', '1992-01-06', 'M', 'Vivo', 3),
+('Charles Clark', 'hour', '1992-01-06', 'M', 'VIVO', 3),
 
-('Kyle Anderson', 'if', '2001-09-02', 'F', 'Desconocido', 12),
+('Kyle Anderson', 'if', '2001-09-02', 'F', 'DESCONOCIDO', 12),
 
-('Melissa Chan', 'individual', '1993-10-16', 'F', 'Vivo', 37),
+('Melissa Chan', 'individual', '1993-10-16', 'F', 'VIVO', 37),
 
-('Christina Williams', 'degree', '1995-10-12', 'F', 'Muerto', 7),
+('Christina Williams', 'degree', '1995-10-12', 'F', 'MUERTO', 7),
 
-('Peter Clark', 'both', '1989-10-03', 'F', 'Vivo', 41),
+('Peter Clark', 'both', '1989-10-03', 'F', 'VIVO', 41),
 
-('William Warren', 'son', '2009-05-12', 'F', 'Vivo', 35),
+('William Warren', 'son', '2009-05-12', 'F', 'VIVO', 35),
 
-('Kyle Parrish', 'main', '2006-11-18', 'M', 'Desconocido', 19),
+('Kyle Parrish', 'main', '2006-11-18', 'M', 'DESCONOCIDO', 19),
 
-('Marissa Jones', 'south', '1996-05-05', 'M', 'Desconocido', 7),
+('Marissa Jones', 'south', '1996-05-05', 'M', 'DESCONOCIDO', 7),
 
-('Micheal Hill', 'real', '1989-12-16', 'F', 'Desconocido', 16),
+('Micheal Hill', 'real', '1989-12-16', 'F', 'DESCONOCIDO', 16),
 
-('Selena Harper', 'each', '1991-10-25', 'M', 'Desconocido', 41),
+('Selena Harper', 'each', '1991-10-25', 'M', 'DESCONOCIDO', 41),
 
-('Kathy Griffin', 'poor', '2007-02-03', 'M', 'Desconocido', 21),
+('Kathy Griffin', 'poor', '2007-02-03', 'M', 'DESCONOCIDO', 21),
 
-('Stephanie Thomas', 'medical', '1999-11-07', 'M', 'Muerto', 12),
+('Stephanie Thomas', 'medical', '1999-11-07', 'M', 'MUERTO', 12),
 
-('Heather Vasquez', 'group', '2008-10-17', 'F', 'Desconocido', 16),
+('Heather Vasquez', 'group', '2008-10-17', 'F', 'DESCONOCIDO', 16),
 
-('Steven Walker', 'seek', '2002-07-07', 'M', 'Muerto', 25),
+('Steven Walker', 'seek', '2002-07-07', 'M', 'MUERTO', 25),
 
-('Jeffrey Valentine', 'guess', '2000-07-08', 'F', 'Vivo', 12),
+('Jeffrey Valentine', 'guess', '2000-07-08', 'F', 'VIVO', 12),
 
-('Anthony Ramirez', 'image', '2007-02-13', 'F', 'Muerto', 19),
+('Anthony Ramirez', 'image', '2007-02-13', 'F', 'MUERTO', 19),
 
-('Miranda Turner', 'improve', '2008-08-10', 'F', 'Muerto', 26),
+('Miranda Turner', 'improve', '2008-08-10', 'F', 'MUERTO', 26),
 
-('Kenneth Douglas', 'society', '1989-02-21', 'F', 'Vivo', 33),
+('Kenneth Douglas', 'society', '1989-02-21', 'F', 'VIVO', 33),
 
-('Stanley Mccullough', 'enjoy', '1989-05-29', 'M', 'Vivo', 47),
+('Stanley Mccullough', 'enjoy', '1989-05-29', 'M', 'VIVO', 47),
 
-('Michelle Rojas', 'that', '1997-07-20', 'F', 'Muerto', 32),
+('Michelle Rojas', 'that', '1997-07-20', 'F', 'MUERTO', 32),
 
-('Sheryl Howard', 'would', '1997-12-09', 'M', 'Vivo', 12),
+('Sheryl Howard', 'would', '1997-12-09', 'M', 'VIVO', 12),
 
-('Adam Garcia', 'speech', '1993-03-30', 'M', 'Desconocido', 12),
+('Adam Garcia', 'speech', '1993-03-30', 'M', 'DESCONOCIDO', 12),
 
-('Zachary Martinez', 'when', '1999-04-30', 'M', 'Vivo', 16),
+('Zachary Martinez', 'when', '1999-04-30', 'M', 'VIVO', 16),
 
-('Holly Davis', 'college', '1998-09-12', 'M', 'Desconocido', 46),
+('Holly Davis', 'college', '1998-09-12', 'M', 'DESCONOCIDO', 46),
 
-('William Oneill', 'space', '2008-12-25', 'F', 'Desconocido', 31),
+('William Oneill', 'space', '2008-12-25', 'F', 'DESCONOCIDO', 31),
 
-('Donald Frazier', 'down', '1989-10-09', 'F', 'Desconocido', 47),
+('Donald Frazier', 'down', '1989-10-09', 'F', 'DESCONOCIDO', 47),
 
-('Jesse Howard', 'suddenly', '1988-06-06', 'F', 'Vivo', 42),
+('Jesse Howard', 'suddenly', '1988-06-06', 'F', 'VIVO', 42),
 
-('Christine Reed', 'professional', '2001-05-25', 'F', 'Muerto', 34),
+('Christine Reed', 'professional', '2001-05-25', 'F', 'MUERTO', 34),
 
-('Patrick Thompson', 'cut', '1995-01-31', 'M', 'Desconocido', 2),
+('Patrick Thompson', 'cut', '1995-01-31', 'M', 'DESCONOCIDO', 2),
 
-('Shaun Collier', 'suggest', '2006-06-21', 'M', 'Muerto', 27),
+('Shaun Collier', 'suggest', '2006-06-21', 'M', 'MUERTO', 27),
 
-('Mary Rivera', 'trouble', '1990-01-28', 'M', 'Vivo', 24),
+('Mary Rivera', 'trouble', '1990-01-28', 'M', 'VIVO', 24),
 
-('Tasha Sanford', 'appear', '1986-10-01', 'F', 'Vivo', 16),
+('Tasha Sanford', 'appear', '1986-10-01', 'F', 'VIVO', 16),
 
-('Meghan Jensen', 'treat', '1986-04-08', 'F', 'Vivo', 39),
+('Meghan Jensen', 'treat', '1986-04-08', 'F', 'VIVO', 39),
 
-('Monica Marquez', 'course', '1989-12-16', 'M', 'Muerto', 41),
+('Monica Marquez', 'course', '1989-12-16', 'M', 'MUERTO', 41),
 
-('Cassidy Friedman', 'ready', '2006-10-23', 'F', 'Vivo', 21),
+('Cassidy Friedman', 'ready', '2006-10-23', 'F', 'VIVO', 21),
 
-('Richard Robinson', 'my', '1998-09-22', 'F', 'Muerto', 8),
+('Richard Robinson', 'my', '1998-09-22', 'F', 'MUERTO', 8),
 
-('Angela Berry', 'PM', '2007-07-14', 'F', 'Muerto', 26),
+('Angela Berry', 'PM', '2007-07-14', 'F', 'MUERTO', 26),
 
-('Jose King', 'writer', '2002-07-09', 'F', 'Vivo', 13),
+('Jose King', 'writer', '2002-07-09', 'F', 'VIVO', 13),
 
-('Laura Ross MD', 'modern', '2002-04-02', 'F', 'Vivo', 23),
+('Laura Ross MD', 'modern', '2002-04-02', 'F', 'VIVO', 23),
 
-('Donald Harper', 'clear', '2008-02-05', 'M', 'Desconocido', 27),
+('Donald Harper', 'clear', '2008-02-05', 'M', 'DESCONOCIDO', 27),
 
-('Kim Archer', 'center', '1990-10-17', 'F', 'Muerto', 42),
+('Kim Archer', 'center', '1990-10-17', 'F', 'MUERTO', 42),
 
-('William Bennett', 'then', '1988-05-20', 'M', 'Desconocido', 4),
+('William Bennett', 'then', '1988-05-20', 'M', 'DESCONOCIDO', 4),
 
-('Lee Beasley', 'address', '1988-08-15', 'F', 'Desconocido', 40),
+('Lee Beasley', 'address', '1988-08-15', 'F', 'DESCONOCIDO', 40),
 
-('Patricia Turner', 'body', '1995-04-08', 'M', 'Desconocido', 12),
+('Patricia Turner', 'body', '1995-04-08', 'M', 'DESCONOCIDO', 12),
 
-('Phillip Perez', 'father', '1986-09-19', 'M', 'Vivo', 1),
+('Phillip Perez', 'father', '1986-09-19', 'M', 'VIVO', 1),
 
-('Hannah Taylor', 'whose', '1997-08-22', 'F', 'Desconocido', 46),
+('Hannah Taylor', 'whose', '1997-08-22', 'F', 'DESCONOCIDO', 46),
 
-('Javier Villanueva', 'stage', '1996-12-22', 'F', 'Muerto', 38),
+('Javier Villanueva', 'stage', '1996-12-22', 'F', 'MUERTO', 38),
 
-('Lori Garcia', 'development', '2008-03-05', 'F', 'Muerto', 15),
+('Lori Garcia', 'development', '2008-03-05', 'F', 'MUERTO', 15),
 
-('Jacob Simpson', 'even', '2004-03-09', 'F', 'Desconocido', 20),
+('Jacob Simpson', 'even', '2004-03-09', 'F', 'DESCONOCIDO', 20),
 
-('Veronica Daniel', 'see', '1996-08-30', 'F', 'Vivo', 48),
+('Veronica Daniel', 'see', '1996-08-30', 'F', 'VIVO', 48),
 
-('Carol Burnett', 'city', '1998-10-19', 'M', 'Vivo', 46),
+('Carol Burnett', 'city', '1998-10-19', 'M', 'VIVO', 46),
 
-('Lisa Woodard', 'sure', '2000-10-02', 'M', 'Muerto', 39),
+('Lisa Woodard', 'sure', '2000-10-02', 'M', 'MUERTO', 39),
 
-('Dr. Michelle Edwards DDS', 'speech', '2010-03-24', 'M', 'Vivo', 9),
+('Dr. Michelle Edwards DDS', 'speech', '2010-03-24', 'M', 'VIVO', 9),
 
-('Janet Huffman', 'than', '1996-01-28', 'F', 'Vivo', 41),
+('Janet Huffman', 'than', '1996-01-28', 'F', 'VIVO', 41),
 
-('Mikayla Bowman', 'green', '1995-12-22', 'F', 'Vivo', 18),
+('Mikayla Bowman', 'green', '1995-12-22', 'F', 'VIVO', 18),
 
-('Glenn Crawford', 'management', '2000-10-21', 'F', 'Vivo', 12),
+('Glenn Crawford', 'management', '2000-10-21', 'F', 'VIVO', 12),
 
-('Meghan Levine', 'safe', '1987-02-03', 'M', 'Desconocido', 48),
+('Meghan Levine', 'safe', '1987-02-03', 'M', 'DESCONOCIDO', 48),
 
-('Jill Andrews', 'later', '1994-01-13', 'M', 'Desconocido', 48),
+('Jill Andrews', 'later', '1994-01-13', 'M', 'DESCONOCIDO', 48),
 
-('Katherine Salinas', 'stand', '2006-03-26', 'F', 'Desconocido', 49),
+('Katherine Salinas', 'stand', '2006-03-26', 'F', 'DESCONOCIDO', 49),
 
-('Tina Smith', 'feel', '2010-03-28', 'F', 'Vivo', 35),
+('Tina Smith', 'feel', '2010-03-28', 'F', 'VIVO', 35),
 
-('Erin Moore', 'story', '2008-08-21', 'F', 'Vivo', 36),
+('Erin Moore', 'story', '2008-08-21', 'F', 'VIVO', 36),
 
-('Felicia Lopez', 'car', '1988-10-04', 'F', 'Muerto', 33),
+('Felicia Lopez', 'car', '1988-10-04', 'F', 'MUERTO', 33),
 
-('Dale Coleman', 'want', '2000-01-29', 'F', 'Vivo', 1),
+('Dale Coleman', 'want', '2000-01-29', 'F', 'VIVO', 1),
 
-('Rebecca Farmer', 'respond', '1986-09-19', 'M', 'Vivo', 17),
+('Rebecca Farmer', 'respond', '1986-09-19', 'M', 'VIVO', 17),
 
-('Emma Houston', 'the', '1994-04-26', 'M', 'Desconocido', 16),
+('Emma Houston', 'the', '1994-04-26', 'M', 'DESCONOCIDO', 16),
 
-('Anthony Powers', 'meet', '2007-11-04', 'M', 'Muerto', 13);
+('Anthony Powers', 'meet', '2007-11-04', 'M', 'MUERTO', 13);
 
 INSERT INTO usuario_fruta (id_personaje, id_fruta, episodio) VALUES
 
