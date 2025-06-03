@@ -133,3 +133,50 @@ def delete_fruta_diablo(db: Session, fruta_id: int) -> bool:
     db.commit()
     return True
 
+
+def get_reporte_avanzado_frutas(db: Session) -> List[schemas.ReporteFrutaAvanzado]:
+    from sqlalchemy import func
+
+    subquery_habilidades = (
+        db.query(
+            models.FrutaHabilidad.id_fruta,
+            func.count(models.FrutaHabilidad.id_habilidad).label("cantidad_habilidades"),
+            func.max(models.FrutaHabilidad.nivel_manifestacion).label("nivel_maximo")
+        )
+        .group_by(models.FrutaHabilidad.id_fruta)
+        .subquery()
+    )
+
+    subquery_asociaciones = (
+        db.query(models.UsuarioFruta.id_fruta.label("id_fruta_asociada"))
+        .distinct()
+        .subquery()
+    )
+
+    query = (
+        db.query(
+            models.FrutaDiablo.id,
+            models.FrutaDiablo.nombre,
+            models.TipoFruta.nombre.label("tipo_fruta_nombre"),
+            models.FrutaDiablo.estado,
+            func.coalesce(subquery_habilidades.c.cantidad_habilidades, 0).label("cantidad_habilidades"),
+            subquery_habilidades.c.nivel_maximo.label("nivel_maximo"),
+            func.coalesce(subquery_asociaciones.c.id_fruta_asociada.isnot(None), False).label("esta_asociada")
+        )
+        .join(models.TipoFruta, models.FrutaDiablo.id_tipo_fruta == models.TipoFruta.id)
+        .outerjoin(subquery_habilidades, subquery_habilidades.c.id_fruta == models.FrutaDiablo.id)
+        .outerjoin(subquery_asociaciones, subquery_asociaciones.c.id_fruta_asociada == models.FrutaDiablo.id)
+    )
+
+    return [
+        schemas.ReporteFrutaAvanzado(
+            id=fruta.id,
+            nombre=fruta.nombre,
+            tipo_fruta_nombre=fruta.tipo_fruta_nombre,
+            estado=fruta.estado,
+            cantidad_habilidades=fruta.cantidad_habilidades,
+            nivel_maximo=fruta.nivel_maximo,
+            esta_asociada=fruta.esta_asociada
+        )
+        for fruta in query.all()
+    ]

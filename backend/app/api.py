@@ -143,3 +143,9 @@ def delete_fruta_diablo(fruta_id: int, db: Session = Depends(get_db)):
 def health_check():
     """Verificar que la API esté funcionando"""
     return {"status": "healthy", "message": "API funcionando correctamente"}
+
+
+# ========== ENDPOINT DE REPORTES ==========
+@app.get("/reportes/frutas/avanzado", response_model=List[schemas.ReporteFrutaAvanzado])
+def reporte_avanzado_frutas(db: Session = Depends(get_db)):
+    return crud.get_reporte_avanzado_frutas(db)

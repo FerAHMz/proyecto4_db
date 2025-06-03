@@ -11,6 +11,13 @@ class EstadoFrutaType(enum.Enum):
     CONSUMIDA = "Consumida"
     DESCONOCIDA = "Desconocida"
 
+class NivelHakiType(str, enum.Enum):
+    BASICO = "Básico"
+    INTERMEDIO = "Intermedio"
+    AVANZADO = "Avanzado"
+    DESPERTADO = "Despertado"
+
+
 class TipoZoanType(enum.Enum):
     NORMAL = "Normal"
     ANTIGUA = "Antigua"
@@ -108,7 +115,11 @@ class FrutaHabilidad(Base):
     id = Column(Integer, primary_key=True)
     id_fruta = Column(Integer, ForeignKey('fruta_diablo.id'), nullable=False)
     id_habilidad = Column(Integer, ForeignKey('habilidad.id'), nullable=False)
-    nivel_manifestacion = Column(Enum(NivelHakiType), nullable=False)
+    nivel_manifestacion = Column(
+        Enum(NivelHakiType, native_enum=False, values_callable=lambda x: [e.value for e in x]),
+        nullable=False
+    )
+
 
 class Personaje(Base):
     __tablename__ = 'personaje'
@@ -228,9 +239,12 @@ class PersonajeIndexView(Base):
 
 class FrutaDiabloIndexView(Base):
     __tablename__ = 'vw_frutas_index'
-    __table_args__ = {'info': dict(is_view=True)}
+    __table_args__ = {'extend_existing':True}
 
     id = Column(Integer, primary_key=True)
     nombre = Column(String)
     estado = Column(Enum(EstadoFrutaType))
     tipo_fruta_nombre = Column(String)
+
+
+    

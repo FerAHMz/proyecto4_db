@@ -103,3 +103,13 @@ class FrutaDiabloIndex(BaseModel):
 
     class Config:
         orm_mode = True
+
+    
+class ReporteFrutaAvanzado(BaseModel):
+    id: int
+    nombre: str
+    tipo_fruta_nombre: Optional[str]
+    estado: Optional[str]
+    cantidad_habilidades: int
+    nivel_maximo: Optional[str]  
+    esta_asociada: bool
