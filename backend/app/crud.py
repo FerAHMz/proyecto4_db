@@ -218,3 +218,32 @@ def get_reporte_avanzado_personajes(db: Session):
         })
 
     return resultado
+
+
+def get_reporte_tripulaciones(db: Session):
+    from sqlalchemy import func
+    from sqlalchemy.orm import aliased
+    from . import models
+
+    capitan = aliased(models.Personaje)
+    ubicacion = aliased(models.Ubicacion)
+
+    query = (
+        db.query(
+            models.Tripulacion.id,
+            models.Tripulacion.nombre.label("tripulacion"),
+            capitan.nombre.label("capitan"),
+            models.Tripulacion.estado,
+            ubicacion.nombre.label("ubicacion_base"),
+            func.count(models.PersonajeTripulacion.id).label("cantidad_miembros"),
+            func.count(func.nullif(models.UsuarioFruta.id, None)).label("usuarios_fruta")
+        )
+        .join(capitan, models.Tripulacion.id_capitan == capitan.id)
+        .outerjoin(ubicacion, models.Tripulacion.id_ubicacion_base == ubicacion.id)
+        .outerjoin(models.PersonajeTripulacion, models.Tripulacion.id == models.PersonajeTripulacion.id_tripulacion)
+        .outerjoin(models.Personaje, models.PersonajeTripulacion.id_personaje == models.Personaje.id)
+        .outerjoin(models.UsuarioFruta, models.UsuarioFruta.id_personaje == models.Personaje.id)
+        .group_by(models.Tripulacion.id, capitan.nombre, models.Tripulacion.estado, ubicacion.nombre)
+    )
+
+    return query.all()

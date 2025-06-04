@@ -153,3 +153,7 @@ def reporte_avanzado_frutas(db: Session = Depends(get_db)):
 @app.get("/reportes/personajes/avanzado", response_model=List[schemas.ReportePersonaje])
 def reporte_avanzado_personajes(db: Session = Depends(get_db)):
     return crud.get_reporte_avanzado_personajes(db)
+
+@app.get("/reportes/tripulaciones/avanzado", response_model=list[schemas.ReporteTripulacion])
+def reporte_avanzado_tripulaciones(db: Session = Depends(get_db)):
+    return crud.get_reporte_tripulaciones(db)

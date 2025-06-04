@@ -161,6 +161,7 @@ class HistorialUsuario(Base):
     motivo_fin = Column(String(100))
 
 class Tripulacion(Base):
+    from sqlalchemy import Enum as SqlEnum
     __tablename__ = 'tripulacion'
     
     id = Column(Integer, primary_key=True)
@@ -168,7 +169,15 @@ class Tripulacion(Base):
     bandera = Column(String(200))
     id_capitan = Column(Integer, ForeignKey('personaje.id'), nullable=False)
     id_ubicacion_base = Column(Integer, ForeignKey('ubicacion.id'))
-    estado = Column(Enum(EstadoTripulacionType), nullable=False)
+    estado = Column(
+    SqlEnum(
+        EstadoTripulacionType,
+        native_enum=False,
+        values_callable=lambda enum_cls: [e.value for e in enum_cls]
+    ),
+    nullable=False
+)
+    
 
 class PersonajeTripulacion(Base):
     __tablename__ = 'personaje_tripulacion'

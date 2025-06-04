@@ -121,9 +121,23 @@ class ReportePersonaje(BaseModel):
     nombre: str
     ocupacion: Optional[str]
     fruta: Optional[str]
-    nivel_general: Optional[str]  # Cambiado de nivel_maximo
+    nivel_general: Optional[str]  
     recompensa: float
     estado: Optional[str]
 
     class Config:
-        from_attributes = True  # Pydantic v2 reemplaza orm_mode
+        from_attributes = True  
+
+        from pydantic import BaseModel
+
+class ReporteTripulacion(BaseModel):
+    id: int
+    tripulacion: str
+    capitan: str
+    estado: str
+    ubicacion_base: str | None
+    cantidad_miembros: int
+    usuarios_fruta: int
+
+    class Config:
+        from_attributes = True
