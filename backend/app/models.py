@@ -123,7 +123,7 @@ class FrutaHabilidad(Base):
 
 class Personaje(Base):
     __tablename__ = 'personaje'
-    
+
     id = Column(Integer, primary_key=True)
     nombre = Column(String(100), nullable=False)
     apodo = Column(String(100))
@@ -132,6 +132,14 @@ class Personaje(Base):
     estado = Column(Enum(EstadoPersonajeType, native_enum=False), nullable=False)
     id_ocupacion = Column(Integer, ForeignKey('ocupacion.id'), nullable=False)
 
+    usuario_fruta = relationship("UsuarioFruta", backref="personaje")
+    haki_usuario = relationship("HakiUsuarios", backref="personaje")
+    recompensas = relationship("Recompensa", backref="personaje")
+    ocupacion = relationship("Ocupacion", backref="personajes")
+
+
+
+
 class UsuarioFruta(Base):
     __tablename__ = 'usuario_fruta'
     
@@ -139,6 +147,8 @@ class UsuarioFruta(Base):
     id_personaje = Column(Integer, ForeignKey('personaje.id'), nullable=False)
     id_fruta = Column(Integer, ForeignKey('fruta_diablo.id'), nullable=False)
     episodio = Column(Integer, nullable=False)
+    fruta = relationship("FrutaDiablo", backref="usuarios")
+
 
 class HistorialUsuario(Base):
     __tablename__ = 'historial_usuario'

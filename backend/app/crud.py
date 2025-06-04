@@ -8,7 +8,7 @@ Operaciones CRUD para cada modelo:
 """
 
 from sqlalchemy.orm import Session
-from sqlalchemy import select, and_, or_
+from sqlalchemy import func,select, and_, or_
 from typing import List, Optional
 from . import models, schemas
 
@@ -180,3 +180,41 @@ def get_reporte_avanzado_frutas(db: Session) -> List[schemas.ReporteFrutaAvanzad
         )
         for fruta in query.all()
     ]
+
+def get_reporte_avanzado_personajes(db: Session):
+    personajes = (
+        db.query(models.Personaje)
+        .outerjoin(models.UsuarioFruta, models.Personaje.id == models.UsuarioFruta.id_personaje)
+        .outerjoin(models.FrutaDiablo, models.UsuarioFruta.id_fruta == models.FrutaDiablo.id)
+        .outerjoin(models.HakiUsuarios, models.Personaje.id == models.HakiUsuarios.id_personaje)
+        .outerjoin(models.Recompensa, models.Personaje.id == models.Recompensa.id_personaje)
+        .outerjoin(models.Ocupacion, models.Personaje.id_ocupacion == models.Ocupacion.id)
+        .all()
+    )
+
+    resultado = []
+    for p in personajes:
+        fruta = p.usuario_fruta[0].fruta.nombre if p.usuario_fruta else None
+
+        niveles = [h.nivel.lower() for h in p.haki_usuario] if hasattr(p, "haki_usuario") else []
+        nivel_general = None
+        if any("despertado" in n for n in niveles):
+            nivel_general = "Despertado"
+        elif any("avanzado" in n for n in niveles):
+            nivel_general = "Avanzado"
+        elif any("intermedio" in n for n in niveles):
+            nivel_general = "Intermedio"
+
+        recompensa = next((float(r.cantidad) for r in getattr(p, "recompensas", []) if r.activa), 0)
+
+        resultado.append({
+            "id": p.id,
+            "nombre": p.nombre,
+            "ocupacion": p.ocupacion.nombre if p.ocupacion else None,
+            "fruta": fruta,
+            "nivel_general": nivel_general,
+            "recompensa": recompensa,
+            "estado": p.estado.value if p.estado else None
+        })
+
+    return resultado

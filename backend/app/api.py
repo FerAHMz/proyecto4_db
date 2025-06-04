@@ -149,3 +149,7 @@ def health_check():
 @app.get("/reportes/frutas/avanzado", response_model=List[schemas.ReporteFrutaAvanzado])
 def reporte_avanzado_frutas(db: Session = Depends(get_db)):
     return crud.get_reporte_avanzado_frutas(db)
+
+@app.get("/reportes/personajes/avanzado", response_model=List[schemas.ReportePersonaje])
+def reporte_avanzado_personajes(db: Session = Depends(get_db)):
+    return crud.get_reporte_avanzado_personajes(db)

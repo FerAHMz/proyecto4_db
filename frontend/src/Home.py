@@ -10,7 +10,9 @@ Página principal de Streamlit:
 """
 
 import streamlit as st
-from pages import frutas, personajes, tripulaciones, ranking_poder
+from pages import frutas, tripulaciones
+import pages.personajes as personajes
+
 
 st.set_page_config(page_title="Sistema One Piece", layout="wide")
 st.title("Sistema de Reportes - Frutas del Diablo")
@@ -23,5 +25,4 @@ elif menu == "Personajes":
     personajes.mostrar()
 elif menu == "Tripulaciones":
     tripulaciones.mostrar()
-elif menu == "Ranking de Poder":
-    ranking_poder.mostrar()
+

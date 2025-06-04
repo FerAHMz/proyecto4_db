@@ -10,6 +10,8 @@ from typing import Optional, List
 from datetime import date
 from decimal import Decimal
 from .models import SexoType, EstadoPersonajeType, EstadoFrutaType
+from pydantic import BaseModel
+from typing import Optional
 
 class PersonajeBase(BaseModel):
     nombre: str = Field(..., max_length=100)
@@ -113,3 +115,15 @@ class ReporteFrutaAvanzado(BaseModel):
     cantidad_habilidades: int
     nivel_maximo: Optional[str]  
     esta_asociada: bool
+
+class ReportePersonaje(BaseModel):
+    id: int
+    nombre: str
+    ocupacion: Optional[str]
+    fruta: Optional[str]
+    nivel_general: Optional[str]  # Cambiado de nivel_maximo
+    recompensa: float
+    estado: Optional[str]
+
+    class Config:
+        from_attributes = True  # Pydantic v2 reemplaza orm_mode
