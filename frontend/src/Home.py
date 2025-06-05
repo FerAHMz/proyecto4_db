@@ -10,9 +10,8 @@ Página principal de Streamlit:
 """
 
 import streamlit as st
-from pages import frutas, tripulaciones
-import pages.personajes as personajes
-
+from modules import frutas, tripulaciones
+import modules.personajes as personajes
 
 st.set_page_config(page_title="Sistema One Piece", layout="wide")
 st.title("Sistema de Reportes - Frutas del Diablo")
@@ -25,4 +24,7 @@ elif menu == "Personajes":
     personajes.mostrar()
 elif menu == "Tripulaciones":
     tripulaciones.mostrar()
+else:
+    st.write("## Bienvenido al Sistema One Piece")
+    st.write("Selecciona una sección del menú lateral para comenzar.")
 
