@@ -16,7 +16,7 @@ import modules.personajes as personajes
 st.set_page_config(page_title="Sistema One Piece", layout="wide")
 st.title("Sistema de Reportes - Frutas del Diablo")
 
-menu = st.sidebar.radio("Selecciona una sección", ["Frutas", "Personajes", "Tripulaciones", "Ranking de Poder"])
+menu = st.sidebar.radio("Selecciona una sección", ["Frutas", "Personajes", "Tripulaciones"])
 
 if menu == "Frutas":
     frutas.mostrar()
